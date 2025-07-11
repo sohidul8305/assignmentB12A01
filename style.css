@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    background-color: #4E47FF;
+    color: #ffffff;
+    padding: 12px 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: #4d47ff44;
+    color: black;
+    transition: .5s;
+}
+.btn-a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover .btn-a{
+    color: #4E47FF;
+    transition: .7s;
+}
+
+
+header{
+    background-image: url(./Assets/Hero-bg.png);
+    padding-bottom: 200px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 120px;
+}
+.logo{
+    font-size: 34px;
+    font-weight: bolder;
+    color: #4E47FF;
+    font-family: integer, sans-serif;
+    
+}
+
+.hero-titel{
+    text-align: center;
+    padding: 130px 260px 0 260px;
+    color: #252432;
+    font-size: 65px;
+    font-weight: bold;
+}
+.hero-btn{
+    display: block;
+    margin: 0 auto;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    padding: 50px 0;
+    margin: 100px 140px;
+}
+.action-text{
+    /* padding-right: 500px; */
+}
+.action-text h2{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 0;
+}
+.action-text p{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);;
+}
+.action-img img{
+   border-radius: 48px;
+}
+.user-section{
+    text-align: center;
+    padding: 50px 0;
+    margin: 100px 140px;
+    background-color: rgba(77, 71, 255, 0.1);
+    border-radius: 24px;
+}
+.user-section h2{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+.user-section p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: integer, sans-serif;
+}
+.user-stats{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
+.user-stats h2{
+     font-size: 80px;
+     font-weight: bold;
+     color: #4E47FF;
+     margin-bottom: 0;
+     font-family: integer, sans-serif;
+}
+.feedback-user-section{
+    text-align: center;
+    padding: 50px 0;
+    margin: 100px 140px;
+}
+.feedback-section h2{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.cards{
+    display: flex;
+    gap: 50px;
+    box-shadow: 10 10 50;
+}
